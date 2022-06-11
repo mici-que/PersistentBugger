@@ -1,3 +1,6 @@
+from itertools import cycle
+
+
 def main(num=None):
     def validator(num=None):
         return (
@@ -14,9 +17,9 @@ def main(num=None):
         return product
 
     if validator(num):
-        if num <= 9:
-            return 0
-        if digitalproduct(num) <= 9:
-            return 1
-        return 2
+        cycle = 0
+        while num > 9:
+            num = digitalproduct(num)
+            cycle += 1
+        return cycle
     return False
