@@ -13,7 +13,7 @@ input should be
 - count number of cyles
 ### a) one cycle nums
 
-🔴🟢
+🔴🟢♻️
 
 
 ***
