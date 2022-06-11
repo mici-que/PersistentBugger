@@ -7,6 +7,8 @@ def main(num=None):
         )
 
     if validator(num):
+        if num > 9:
+            return 1
         return 0
 
     return False
