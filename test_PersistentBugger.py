@@ -22,3 +22,9 @@ def test_Zero():
     """Input is zero, return zero"""
     param = 0
     assert (main(param)) == 0
+
+
+def test_SingleDigits():
+    """Input is single digit, return 0"""
+    param = 9
+    assert (main(param)) == 0

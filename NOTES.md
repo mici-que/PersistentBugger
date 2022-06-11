@@ -5,7 +5,7 @@ input should be
 - present
 - integer
 - positive
-🔴
+🔴🟢
 
 ***
 ✅ 🍅 🔴 🟢 ♻️ 💿
