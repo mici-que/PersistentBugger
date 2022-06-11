@@ -49,3 +49,24 @@ def test_OneCycle3():
     """Input is 33, return 1 (3*3=9)"""
     param = 33
     assert (main(param)) == 1
+
+
+# 2b two-cycle nums
+
+
+def test_TwoCycle1():
+    """Input is 44, return 2 (4*4=16,1*6=6)"""
+    param = 44
+    assert (main(param)) == 2
+
+
+def test_TwoCycle2():
+    """Input is 92, return 2 (9*2=18,1*8=8)"""
+    param = 92
+    assert (main(param)) == 2
+
+
+def test_TwoCycle3():
+    """Input is 912, return 2 (9*1*2=18,1*8=8)"""
+    param = 912
+    assert (main(param)) == 2
