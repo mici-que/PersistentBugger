@@ -1,6 +1,3 @@
-from itertools import cycle
-
-
 def main(num=None):
     def validator(num=None):
         return (
